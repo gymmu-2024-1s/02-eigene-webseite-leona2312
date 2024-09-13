@@ -30,3 +30,8 @@ body {
     border-radius: 2rem; /* Damit können die Ecken abgerundet werden. */
     width: 100%; /* Braucht es damit das Bild im Container bleibt und nicht viel zu gross ist. */
 }
+
+.my-title {
+    background: linear-gradient(25deg, rgb(255, 255, 255), rgb(76, 76, 118));
+    color: rgb(76, 76, 118);
+}
