@@ -34,9 +34,17 @@ body {
 .my-title {
     color: rgb(76, 76, 118);
     text-align: center;
-    font-size: xx-large;
+    font-size: 24pt;
 }
 .Text-Volleyball {
     text-align: center;
     font-style: normal;
+}
+.musik-hören {
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(76, 76, 118);
+}
+.my-music {
+    text-align: center;
 }
