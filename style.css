@@ -50,14 +50,20 @@ body {
 }
 .über-mich {
     font-size: 24pt;
-    text-align: center;
+    text-align: justify;
     color: rgb(76, 76, 118);
 }
 .web-leona {
     font-size: 30pt;
     text-align: center;
-    color: rgb(23, 28, 124);
+    color: rgb(11, 14, 85);
+    background-color: rgba(13, 24, 81, 0.354);
 }
 .text-mich {
+    text-align: justify;
+}
+.le-sen {
+    font-size: 24pt;
     text-align: center;
+    color: rgb(76, 76, 118);
 }
