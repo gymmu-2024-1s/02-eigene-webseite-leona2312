@@ -58,6 +58,9 @@ body {
     text-align: center;
     color: rgb(11, 14, 85);
     background-color: rgba(13, 24, 81, 0.354);
+    border: 5px double rgb(76, 76, 118);
+    margin: 50px;
+    padding: 2rem;
 }
 .text-mich {
     text-align: justify;
@@ -66,4 +69,12 @@ body {
     font-size: 24pt;
     text-align: center;
     color: rgb(76, 76, 118);
+}
+.meine-hobbies {
+    text-align: center;
+    border: 5px dotted rgb(255, 255, 255);
+    border-radius: 4rem;
+    margin: 50px;
+    padding: 2rem;
+    background-color: rgba(76, 76, 118, 0.635);
 }
