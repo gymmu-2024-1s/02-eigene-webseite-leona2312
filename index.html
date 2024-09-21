@@ -17,7 +17,6 @@
             Dies ist aber nur ein Struktur-Element. Damit der Header auch immer
             ganz oben angezeigt wird, braucht es noch das richtige CSS dafür. -->
             <h1 class="web-leona">Webseite von Leona</h1>
-            <svg width="300" height="300"></svg>
         </header>
         <nav>
             <!-- Das Navigations-Element beinhaltet eine Liste von Links, mit
@@ -25,12 +24,14 @@
             Dieses Element wird oft in den Header gesetzt, kann aber auch auf
             der linken oder rechten Seite verwendet werden. -->
             <ul>
+                
                 <li>
                     <a href="./pages/hobbies.html">Hobbies</a>
                 </li>
                 <li>
                     <a href="./pages/Herkunft.html">Herkunft</a>
                 </li>
+           
             </ul>
         </nav>
 
@@ -93,6 +94,37 @@
         <footer>
             <!-- Hier kommt die Fusszeile der Webseite -->
         </footer>
-        <circle cx="150" cy="150" r="150" />
+        <svg width="300" height="300">
+            <path
+                fill="lightblue"
+                stroke="black"
+                stroke-width="3"
+                d="M 100 95 L 250 95 L 175 225 Z"/>
+                <path
+                fill="lightblue"
+                stroke="black"
+                stroke-width="3"/>
+                <path
+                fill="transparent"
+                stroke="black"
+                stroke-width="3"
+                d="M 100 180 L 250 180 L 175 50 Z"/>
+                <path
+                fill="lightblue"
+                stroke="red"
+                stroke-width="3"/>
+                <animateTransform attributeName="transform"
+                    type="rotate"
+                    from="0 0 0"
+                    to="360 0 0"
+                    dur="4s"
+                    repeatCount="indefinite"/>
+                    (habe ich von ChatGPT)
+                </svg>
+        </svg>
+        
+            </body>
+            
+         
     </body>
 </html>
