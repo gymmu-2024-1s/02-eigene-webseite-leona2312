@@ -120,6 +120,12 @@ body {
     text-align: center;
 }
 
-.img-herkunft {
+.img-herkunft img {
     width: 40%;
+}
+.img-herkunft {
+    text-align: center;
+}
+.al-bum {
+    color: rgb(76, 76, 118);
 }
