@@ -27,6 +27,114 @@ body {
 
 /* Diese Regel beschreibt wie Bilder in diesem Container dargestellt werden. */
 .text-and-img img {
-    border-radius: 2rem; /* Damit können die Ecken abgerundet werden. */
+    border-radius: 4rem; /* Damit können die Ecken abgerundet werden. */
     width: 100%; /* Braucht es damit das Bild im Container bleibt und nicht viel zu gross ist. */
+}
+
+.my-title {
+    color: rgb(76, 76, 118);
+    text-align: center;
+    font-size: 24pt;
+}
+.Text-Volleyball {
+    text-align: center;
+    font-style: normal;
+}
+.musik-hören {
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(76, 76, 118);
+}
+.my-music {
+    text-align: center;
+}
+.über-mich {
+    font-size: 24pt;
+    text-align: justify;
+    color: rgb(76, 76, 118);
+}
+.web-leona {
+    font-size: 30pt;
+    text-align: center;
+    color: rgb(11, 14, 85);
+    background-color: rgba(13, 24, 81, 0.354);
+    border: 5px double rgb(76, 76, 118);
+    margin: 50px;
+    padding: 2rem;
+}
+.text-mich {
+    text-align: justify;
+}
+.le-sen {
+    font-size: 24pt;
+    text-align: center;
+    color: rgb(76, 76, 118);
+}
+.meine-hobbies {
+    text-align: center;
+    border: 5px dotted rgba(103, 107, 159, 0.644);
+    border-radius: 4rem;
+    margin: 50px;
+    padding: 2rem;
+    background-color: rgba(76, 76, 118, 0.534);
+    color: rgb(76, 76, 118);
+}
+
+.bg-text {
+    text-align: center;
+    border: 5px double rgb(91, 94, 149);
+    border: radius 2rem;
+    margin: 10px;
+    padding: 1rem;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    width: 100%;
+}
+
+.foto {
+    text-align: center;
+}
+.foto img {
+    width: 50%;
+}
+
+.grid {
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 60% auto;
+    gap: 2rem;
+}
+.unter-titel {
+    text-align: center;
+    border: 2px double rgb(173, 179, 230);
+    margin: 50px;
+    padding: 1.5rem;
+}
+.drei-eck {
+    text-align: center;
+}
+
+.img-herkunft img {
+    width: 40%;
+}
+.img-herkunft {
+    text-align: center;
+}
+.al-bum {
+    color: rgb(76, 76, 118);
+}
+.her-kunft {
+    text-align: center;
+    border: 5px dotted rgb(103, 107, 159, 0.644);
+    background-color: rgba(76, 76, 118, 0.534);
+    border-radius: 4rem;
+    margin: 50px;
+    padding: 2rem;
+    color: rgb(76, 76, 118);
 }
