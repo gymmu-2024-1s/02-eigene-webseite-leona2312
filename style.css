@@ -129,3 +129,12 @@ body {
 .al-bum {
     color: rgb(76, 76, 118);
 }
+.her-kunft {
+    text-align: center;
+    border: 5px dotted rgb(103, 107, 159, 0.644);
+    background-color: rgba(76, 76, 118, 0.534);
+    border-radius: 4rem;
+    margin: 50px;
+    padding: 2rem;
+    color: rgb(76, 76, 118);
+}
